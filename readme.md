@@ -2,17 +2,18 @@ pwnagotchi 3.5 inch screen installation mod
 
 
 1. flash the given image onto a sd card and add the provided config.toml to boot directory
+   https://drive.google.com/file/d/1CO0-47CPS6muQ8sjIbm6xOnuHNLkvWMV/view?usp=sharing
  1.1 if u dont want your network to be pawned do add your ssid in config.toml or your firewall may blacklist you
 
-2. connect the sd card to rpi0 and the rpi0 to pc via the second port(data port)
+3. connect the sd card to rpi0 and the rpi0 to pc via the second port(data port)
 
-3. the device should show up as a RNDIS device in your netwoks 
+4. the device should show up as a RNDIS device in your netwoks 
     3.1 if not go to device manager the usb ports then update the ports driver with the .inf file provided
     this should connect the rpi0 as RNDIS device
 
-4. go to properties of your current working network go to sharing then add the name of the rpi0
+5. go to properties of your current working network go to sharing then add the name of the rpi0
 
-5. the open rpi0's properties goo to ipv4 and add static ip 10.0.0.1 and dns 255.255.255.0 (.0 at last is specific for ssh)
+6. the open rpi0's properties goo to ipv4 and add static ip 10.0.0.1 and dns 255.255.255.0 (.0 at last is specific for ssh)
 
 6.after saving open terminal 
 
