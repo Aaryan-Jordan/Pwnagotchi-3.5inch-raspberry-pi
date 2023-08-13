@@ -1,0 +1,19 @@
+main.name = "Aaryan"
+main.lang = "en"
+main.whitelist = [
+  "EXAMPLE_NETWORK",
+  "ANOTHER_EXAMPLE_NETWORK",
+  "fo:od:ba:be:fo:od",
+  "fo:od:ba"
+]
+
+main.plugins.grid.enabled = true
+main.plugins.grid.report = true
+main.plugins.grid.exclude = [
+  "YourHomeNetworkHere"
+]
+
+ui.display.enabled = true
+ui.display.rotation = 180
+ui.display.type = "spotpear24inch"
+ui.display.color = "black"
